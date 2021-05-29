@@ -71,4 +71,5 @@ for i in range(length-1):  # 待比较的文件
         for ele in sim_list:
             print('[{}, {:.2f}];'.format(doc_file_name[ele[0]], ele[1]), end=' ')
         print()
+        
         # print("{}-{}, {:.2f}".format(i, j, sum_div / len1))
